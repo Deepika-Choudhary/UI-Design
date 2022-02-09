@@ -1,0 +1,75 @@
+body{
+    background: url('bg1.jpg') no-repeat;
+    background-size: 18rem 35rem;
+}
+
+
+.navbar{
+    display: block;
+}
+
+.navbar li{
+    display: block;
+}
+
+.navbar li:hover{
+    width: 10rem;
+}
+
+.arrow_btns{
+    visibility: hidden;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+}
+
+#header_btn{
+    width: 15rem;
+}
+
+#header_para{
+    width: 15rem;
+}
+
+#resp_header{
+    text-align: left;
+}
+.section-1{
+    width:15rem;
+    margin-left: 1rem;
+    text-align:center;
+}
+
+.section-2,
+.section-3,
+.section-4_header,
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.section-2{
+    width: 17rem;
+}
+
+.section-4 div{
+    width: 10rem;
+}
+
+#testimonial_para{
+    width: 15rem;
+}
+
+hr{
+    width: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.footer,
+#footer_base{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
